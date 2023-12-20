@@ -24,6 +24,7 @@ public class Day8 {
         int navigatingLR = 0;
         boolean zzzfound = false;
         String instructions = lrInstructions.toString();
+        System.out.println(instructions.toString());
         String nextMoveToGoFrom = getMove("AAA", instructions.charAt(navigatingLR));
         turnsToGetZZZ++;
         navigatingLR++;
